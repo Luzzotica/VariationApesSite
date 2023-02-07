@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+
+@media only screen and (min-width:480px) {
+  
+  body {
+  background: linear-gradient(90deg,#bceefe 50%,#8adcfa);  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  cursor: "url(photos/muz1.png),auto" !important;
+  font-family: 'Ranga', cursive;
+}
+
+#menu {
+  background-color:#8b8acf;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  text-align: right;
+}
+
+img.logo {
+  margin: auto;
+  margin-right:100px;
+  height:45px;
+  width:55px;
+}
+
+
+#background {
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+img.home {
+  height:800px;
+  width:1300px;
+  box-sizing: border-box;
+  margin:auto;
+  margin-top: 5px;
+  padding: 0 !important;
+}
+
+h1.text {
+  color: #000;
+  font-size: 50px;
+  margin: auto;
+  margin-top: 60px;
+  letter-spacing: 3px;
+}
+
+
+
+a.mylink:hover {
+  box-shadow: 0 0 20px #000;
+}
+
+a.mylink:active {
+color: #000;
+}
+#text1container {
+  height: fit-content;
+  width:1200px;
+  padding: 10px;
+  margin: auto;
+  margin-top:10px;
+}
+
+#text1container > p {
+  margin:auto;
+  margin-top: 2px;
+  font-size: 18px;
+  height: fit-content;
+  letter-spacing: 4px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: left;
+}
+
+#text2container {
+  height: fit-content;
+  width:1200px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#text2container > p {
+  margin:auto;
+  margin-top: 2px;
+  font-size: 18px;
+  height: fit-content;
+  letter-spacing: 4px;
+  margin: auto;
+  margin-top: 50px;
+  text-align:right;
+}
+
+h1.enjoy {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  letter-spacing:10px;
+}
+
+p.textmiddle {
+  font-size: 15px !important;
+  margin: auto !important;
+  margin-top: 50px !important;
+  text-align: center !important;
+
+}
+
+#button {
+  height:fit-content;
+  width: fit-content;
+  padding-top: 60px !important;
+  text-align: center;
+  margin: auto;
+}
+
+a.mylink {
+
+  margin: auto !important;
+  margin-top: 150px !important;
+  background-color: #f5e08c;
+  height:100px;
+  width: 300px;
+  border: none;
+  font-size:45px;
+  letter-spacing: 3px;
+  border-radius:30px;
+  padding: 20px;
+  text-decoration: none;
+  color:rgb(5, 5, 46);
+  font-weight: bolder;
+  font-family: 'Allan', cursive;
+}
+
+}
+
+@media only screen and (max-width:480px) {
+  
+  body {
+  background: linear-gradient(90deg,#bceefe 50%,#8adcfa);  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  cursor: "url(photos/muz1.png),auto" !important;
+  font-family: 'Ranga', cursive;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+#menu {
+  background-color:#8b8acf;
+  padding: 10px;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100vw !important;
+  text-align: center;
+}
+
+img.logo {
+  margin: auto;
+  height:45px;
+  width:55px;
+}
+
+
+#background {
+  padding: 0 !important;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+img.home {
+  height:500px;
+  width:90vw;
+  box-sizing: border-box;
+  margin:auto;
+  margin-top: 35px;
+  padding: 0 !important;
+}
+
+h1.text {
+  color: #000;
+  font-size:30px;
+  margin: auto;
+  margin-top: 60px;
+  width: 90vw;
+  letter-spacing: 3px;
+}
+
+
+
+
+#text1container {
+  height: fit-content;
+  width:90vw;
+  padding: 10px;
+  margin: auto;
+  margin-top:10px;
+}
+
+#text1container > p {
+  margin:auto;
+  margin-top: 2px;
+  font-size: 18px;
+  height: fit-content;
+  letter-spacing: 4px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: left;
+}
+
+#text2container {
+  height: fit-content;
+  width:90vw;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#text2container > p {
+  margin:auto;
+  margin-top: 2px;
+  font-size: 18px;
+  height: fit-content;
+  letter-spacing: 4px;
+  margin: auto;
+  margin-top: 50px;
+  text-align:right;
+}
+
+h1.enjoy {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  letter-spacing:10px;
+}
+
+p.textmiddle {
+  font-size: 15px !important;
+  margin: auto !important;
+  margin-top: 50px !important;
+  text-align: center !important;
+
+}
+
+#button {
+  height:fit-content;
+  width:90vw;
+  padding-top: 60px !important;
+  text-align: center;
+  margin: auto;
+}
+
+a.mylink {
+
+  margin: auto !important;
+  margin-top: 150px !important;
+  background-color: #f5e08c;
+  height:30px;
+  width:90vw;
+  border: none;
+  font-size:15px;
+  letter-spacing: 3px;
+  border-radius:30px;
+  padding: 20px;
+  text-decoration: none;
+  color:rgb(5, 5, 46);
+  font-weight: bolder;
+  font-family: 'Allan', cursive;
+}
+
+a.mylink:hover {
+  box-shadow: 0 0 20px #000;
+}
+
+a.mylink:active {
+color: #000;
+}
+
+}
